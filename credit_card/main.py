@@ -18,7 +18,7 @@ def main():
   # retreive cvc number
   cvc = cvc_code.get_info()
   
-  print("Please `cat` out card_issued.rsa")
+  print("Please `cat` card_issued.rsa")
   
   # writes out cc info to card_issued.rsa file
   f = open("card_issued.rsa", "w")
