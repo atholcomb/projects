@@ -12,7 +12,7 @@ def get_info():
   set_4 = ''
 
   for i in range(4):
-    set_1 += str(randint(3,6))
+    set_1 += str(randint(5,7))
     set_2 += str(randint(0,9))
     set_3 += str(randint(0,9))
     set_4 += str(randint(0,9))
