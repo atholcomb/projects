@@ -1,7 +1,7 @@
 # url_shortener
 Shortens standard URLs with a new redirect URL
 
-# You will need the `tqdm` package in order to run the script:
+# You will need the `tqdm` package to run the script:
 > https://github.com/tqdm/tqdm
 
 > pip install tqdm
