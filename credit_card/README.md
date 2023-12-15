@@ -4,5 +4,5 @@ Generates credit card information and stores it inside the `card_issued.rsa` fil
 # To Run:
 `./main.py`
 
-# Output
+# Output below:
 `cat card_issued.rsa`
