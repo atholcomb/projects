@@ -17,4 +17,4 @@ def acronyms_data():
    10:"something - that you want to make up"
   }
 
-  return acronym_list
+  return acronym_dict
