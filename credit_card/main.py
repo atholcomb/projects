@@ -4,19 +4,19 @@
 # Generates a new credit card and
 # stores it inside of card_issued.rsa
 
-from issuer import bank_card
-from issuer import exp_date
-from issuer import cvc_code
+from issuer import get_cc_number
+from issuer import get_cvc_code
+from issuer import get_exp_date
 
 def main():
   # retrieve credit card number
-  ccnum = bank_card.get_info()
+  ccnum = get_cc_number()
   
   # retreive expiration date
-  exp = exp_date.get_info()
+  exp = get_exp_date()
   
   # retreive cvc number
-  cvc = cvc_code.get_info()
+  cvc = get_cvc_code()
   
   print("Please `cat` card_issued.rsa")
   
@@ -24,7 +24,7 @@ def main():
   f = open("card_issued.rsa", "w")
   f.write(f"*******************************************\n")
   f.write(f"John Smith | 123 Main St. Chicago, IL 60007\n")
-  f.write(f"cc#: {ccnum} exp: {exp} cvc: {cvc}\n")
+  f.write(f"cc#:{ccnum} exp:{exp} cvc:{cvc}\n")
   f.write(f"*******************************************\n")
   f.close()
 
