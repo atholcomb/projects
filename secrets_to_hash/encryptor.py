@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # written by: atholcomb
 # encryptor.py
-# function encrypts a secret with a hash id
+# function creates a hexidemcial hash id
 
 import random
 
