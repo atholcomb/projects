@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # written by: atholcomb
-# get_hash.py
+# encryptor.py
 # function encrypts a secret with a hash id
 
 import random
