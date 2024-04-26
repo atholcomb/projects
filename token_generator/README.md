@@ -1,7 +1,7 @@
-# token_generator
+### token_generator
 Creates pseudo api tokens from Python's uuid module
 
-# HowTo run script
+### HowTo run script
 1. Inside the `generate_tokens.py` script:
    > modify `create_tokens(15)` parameter to change the quantity of tokens generated
    
