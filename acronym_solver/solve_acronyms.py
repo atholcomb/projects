@@ -2,7 +2,7 @@
 # written by: atholcomb
 # solve_acronyms.py
 # Finds and solves the acronyms within the acronyms.py module
-# Writes outs the acronym to the left-hand side of the screen
+# Writes out the acronym to the left-hand side of the screen
 
 from acronyms import acronyms_data
 
