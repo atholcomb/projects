@@ -1,10 +1,10 @@
-# secrets_to_hash
+### secrets_to_hash
 creates a hexidecimal cipher hash for a given secret
 
-# To run:
+### To run:
 `./hash_secrets.py`
 
-# Output:
+### Output:
 ```
 {
     "consequat": "4ef8155d3",
