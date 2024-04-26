@@ -1,2 +1,2 @@
-# Projects
-Repo contains current projects that have been completed
+### Projects
+Repo is a set of projects that I created and have completed
