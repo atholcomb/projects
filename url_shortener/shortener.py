@@ -18,7 +18,10 @@ def generate_subdomain():
 
 # minimize the URL for the given endpoints
 def minimize_url():
-  domain = ".snk.io"           # shortened URL domain
+  # shortened URL domain
+  domain = ".cognishn.io" 
+  
+  # target endpoints
   endpoints = ['android', 'calendar', 'chromebook',
                'drawings', 'finance', 'drive',
                'contacts', 'chrome', 'gdocs',
@@ -36,9 +39,9 @@ def minimize_url():
               ] 
   URL = ""
   print("Endpoint\t\t\tStatus\t\tNew URL")
-  for key in endpoints:
+  for endpoint in endpoints:
     redirect_url = generate_subdomain().lower() + domain
-    URL = "google.com/" + key
+    URL = "google.com/" + endpoint
     print(f"{URL} \t\t\t\thttps://{redirect_url}", end="\t")
     pbar = tqdm(total=25, bar_format="\t\t\t\t{l_bar}")
     for i in range(5):
