@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 # written by: atholcomb
 # generate_tokens.py
-# Generates tokens of the quantity specified from module below
+# Generates tokens of the quantity 
+# specified from tokens module
 
 from tokens import create_tokens
 
