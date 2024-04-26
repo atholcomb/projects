@@ -1,10 +1,10 @@
-# audit logs
+### audit logs
 Audits the logs.json file for entries that contain `root` or `su -`
 
-# To Run:
+### To Run:
 `./main.py`
 
-# Output should read as follows:
+### Output should read as follows:
 ```
 log#1 	 root 	 6/25/2023
 log#6 	 su - 	 1/16/2023
