@@ -10,7 +10,7 @@ def main():
   # cleansed_data stores the (good) non-hyphenated dataset
   cleansed_data = []
 
-  for key, values in acronyms_data().items():
+  for values in acronyms_data().values():
     # replaces all '-' with a white space character
     # split() creates a indexed based list for each string
     cleansed_data.append(values.replace('-', ' ').split())
