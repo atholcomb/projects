@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# written by: Grace Holcomb
+# written by: atholcomb
 # main.py
 # calls the issuer.py program to instantiate a new credit card
 
