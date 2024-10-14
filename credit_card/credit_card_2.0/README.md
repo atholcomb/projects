@@ -5,4 +5,4 @@ Generates credit card information and stores it inside the `card_issued.rsa` fil
 `./main.py`
 
 ### Output below:
-`cat card_issued.rsa`
+`cat visa_cc.rsa`
