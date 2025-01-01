@@ -1,2 +1,2 @@
 ### Projects
-Repo is a set of projects that I created and have completed
+My project code that I have completed 
