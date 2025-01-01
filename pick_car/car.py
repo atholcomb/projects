@@ -18,17 +18,17 @@ def list_car():
           "make":["BMW"],
           "make":["Subaru","Toyota", "BMW", "Audi"],
           "models":[
-                    ["Legacy","Forester","Impreza","Outback"],
-                    ["Corolla","Camry","Rav-4","Venza"],
-                    ["3Series","5Series","7Series","MSeries"],
-                    ["S4","Q3","Q4","Q7"],
-                   ],
+          ["Legacy","Forester","Impreza","Outback"],
+          ["Corolla","Camry","Rav-4","Venza"],
+          ["3Series","5Series","7Series","MSeries"],
+          ["S4","Q3","Q4","Q7"],
+         ],
           "trim":[
-                  ["Base", "Platinum","Limited","Touring"],
-                  ["LE", "SE","XLE","XSE"],
-                  ["30i", "50i","70i","xDrive"],
-                  ["Base", "Premium","Premium-Plus","Prestige"],
-                 ],
+          ["Base", "Platinum","Limited","Touring"],
+          ["LE", "SE","XLE","XSE"],
+          ["30i", "50i","70i","xDrive"],
+          ["Base", "Premium","Premium-Plus","Prestige"],
+         ],
         }
 
   choice = r.choice(car["make"])
