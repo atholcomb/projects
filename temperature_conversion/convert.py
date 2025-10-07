@@ -5,7 +5,7 @@
 from Conversion import Temperature
 from random import randrange
 
-""" Print out header row table """
+""" Print out table row """
 print("Celsius\t\tFahrenheit\tKelvin")
 
 def main():
