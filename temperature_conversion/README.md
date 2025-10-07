@@ -4,7 +4,7 @@
 
 ## To Run:
 
-`./main.py`
+`./convert.py`
 
 ## Output should show as follows:
 ```
