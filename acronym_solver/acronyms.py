@@ -5,16 +5,17 @@
 
 def acronyms_data():
   acronym_dict = {
-   1:"complementary metal oxide-semiconductor",
-   2:"erasable programmable read-only memory",
-   3:"read-only memory",
-   4:"random-access memory",
-   5:"first-in first-out",
-   6:"last in first out",
-   7:"portable network graphics",
-   8:"asynchronous javascript and xml",
-   9:"gnu image manipulation program",
-   10:"something - that you want to make up"
+   0:"complementary metal oxide-semiconductor",
+   1:"erasable programmable read-only memory",
+   2:"read-only memory",
+   3:"random-access memory",
+   4:"first-in first-out",
+   5:"last in first out",
+   6:"portable network graphics",
+   7:"asynchronous javascript and xml",
+   8:"gnu image manipulation program",
+   9:"something - that you want to make up",
+   10:"today tomorrow forever and always"
   }
 
   return acronym_dict
