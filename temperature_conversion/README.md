@@ -9,7 +9,7 @@
 ## Output should show as follows:
 ```
 Celsius		Fahrenheit	Kelvin
-1649°C		3000°F		1922°K
+1549°C		3000°F		1922°K
 2160°C		3920°F		2433°K
 1395°C		2543°F		1668°K
 2160°C		3920°F		2433°K
