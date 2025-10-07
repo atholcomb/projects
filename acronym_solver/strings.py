@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 # written by: atholcomb
 # strings.py
-# A dictionary mapping of acronyms to solve for
+# A dictionary mapping of acronyms to solve
 
 def phrases():
-  acronym_dict = {
+  phrases_dict = {
    0:"complementary metal oxide-semiconductor",
    1:"erasable programmable read-only memory",
    2:"read-only memory",
@@ -18,4 +18,4 @@ def phrases():
    10:"today tomorrow forever and always"
   }
 
-  return acronym_dict
+  return phrases_dict
