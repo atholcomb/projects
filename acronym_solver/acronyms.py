@@ -1,21 +1,21 @@
 #!/usr/bin/python3
 # written by: atholcomb
-# acronyms.py
-# A dictionary mapping of the acronyms to solve for
+# solve_acronyms.py
+# for a given phrase, solves the acronym (e.g. TIL - Today I Learned)
 
-def acronyms_data():
-  acronym_dict = {
-   0:"complementary metal oxide-semiconductor",
-   1:"erasable programmable read-only memory",
-   2:"read-only memory",
-   3:"random-access memory",
-   4:"first-in first-out",
-   5:"last in first out",
-   6:"portable network graphics",
-   7:"asynchronous javascript and xml",
-   8:"gnu image manipulation program",
-   9:"something - that you want to make up",
-   10:"today tomorrow forever and always"
-  }
+from strings import phrases
 
-  return acronym_dict
+def main():
+  # cleansed_data stores the (good) non-hyphenated dataset
+  cleansed_data = [values.replace('-', ' ').split() for values in phrases().values()]
+
+  for cleansed_str in cleansed_data:
+    for idx, string in enumerate(cleansed_str):
+      # acronym creates the initial characters from the string
+      # using the 0th index and uppercases each 0th character
+      acronym = cleansed_str[idx][0].upper()
+      print(acronym, string)
+    print()
+      
+if __name__ == "__main__":
+      main()

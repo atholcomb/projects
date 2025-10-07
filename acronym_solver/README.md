@@ -1,8 +1,8 @@
 # acronym_solver
-For a given phrase, solves and finds the acronym (e.g. TIL - Today I Learned)
+For a given phrase, solves the acronym (e.g. TIL - Today I Learned)
 
 # To run:
-`./solve_acronyms.py`
+`./acronyms.py`
 
 # Output should read:
 ```
