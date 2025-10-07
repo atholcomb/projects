@@ -1,13 +1,16 @@
 #!/usr/bin/python3
 # written by: atholcomb
-# solve_acronyms.py
-# for a given phrase, solves the acronym (e.g. TIL - Today I Learned)
+# acronyms.py
+# for a given phrase, prints out its acronym (e.g. Today I Learned, TIL)
 
 from strings import phrases
 
 def main():
   # cleansed_data stores the (good) non-hyphenated dataset
-  cleansed_data = [values.replace('-', ' ').split() for values in phrases().values()]
+  cleansed_data = []
+
+  for values in phrases().values():
+    cleansed_data.append(values.replace('-', ' ').split())
 
   for cleansed_str in cleansed_data:
     for idx, string in enumerate(cleansed_str):
