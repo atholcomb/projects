@@ -7,7 +7,7 @@
 `./main.py`
 
 ## Output should show as follows:
-`
+```
 Celsius		Fahrenheit	Kelvin
 1649°C		3000°F		1922°K
 2160°C		3920°F		2433°K
@@ -19,4 +19,4 @@ Celsius		Fahrenheit	Kelvin
 1815°C		3299°F		2088°K
 1125°C		2057°F		1398°K
 1285°C		2345°F		1558°K
-`
+```
