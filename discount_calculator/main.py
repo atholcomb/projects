@@ -31,7 +31,7 @@ def main():
       print(find_discount_2s_place(price, discount))
 
   print("\n10's Discount Dollar Amount ($Amt)")
-  print("Discount = Per%   $Amt $Difference")
+  print("Discount = Per%   $Amt  $Difference")
 
   for price, discount in generate_values_10s().items():
     if discount % 10 == discount:
