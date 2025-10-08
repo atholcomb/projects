@@ -16,7 +16,7 @@ def make_logs():
     http_status = ["200", "301", "400", "403", "404", "500", "303", "501"]
     cmds = ["grep", "top", "systemctl", "netstat", "nmap", "su -", "restart", "ssh"]
     perms = ["0600", "0700", "0777", "0755", "0500", "0655", "0644", "0555"]
-    date = f"{randint(1, 12)}/{randint(1,31)}/{randint(2021, 2023)}"
+    date = f"{randint(1, 12)}/{randint(1,31)}/{randint(2025, 2040)}"
     
     # create dictionary from values above
     logfile[f"log#{i}"] = [date, choice(http_status), choice(perms), choice(cmds), choice(acct_names)]

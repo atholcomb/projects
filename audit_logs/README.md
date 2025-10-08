@@ -2,7 +2,7 @@
 Audits the logs.json file for entries that contain `root` or `su -`
 
 # To Run:
-`./main.py`
+`./inspect_logs.py`
 
 # Output should read as follows:
 ```
