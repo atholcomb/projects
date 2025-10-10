@@ -1,4 +1,4 @@
-## Credit Card
+## Debit Card
 
 ### Creates a real Visa debit card file
 
