@@ -12,7 +12,7 @@ def main():
       f.write("Visa Debit Card\n")
       f.write(f'{c.owner}\n{c.cc_number()}\nexp:{c.exp_date()} cvc:{c.cvc_code()}')
     
-    # open card_issued.rsa and show debit card info
+    # open card_issued.rsa and show debit card information
     with open("card_issued.rsa", "r") as f:
       data = f.read()
       print(data)
