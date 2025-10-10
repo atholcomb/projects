@@ -1,12 +1,14 @@
 ## Credit Card
 
-### Creates a pseudo Visa Debit Card file
+### Creates a real Visa debit card file
 
 ## To Run:
-`./Merchant.py`
+`./main.py`
 
 ## Outputs the following:
+```
 Visa Debit Card
-Colleen Sevde
+Paul Holcomb
 4350-0891-1417-1734
 EXP:11/26 CVC:594
+```
