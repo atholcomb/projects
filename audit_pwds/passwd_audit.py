@@ -10,7 +10,7 @@ def main():
   # 
   stored_pwds = {}
   for n in range(1, 101):   # sets the number of ids and passwords to generate
-    stored_pwds["uid"+str(n)] = newPassword(15) # password length
+    stored_pwds[f"uid{n:02d}"] = newPassword(15) # password length
 
   # stores the user + password into the foo.pwds file
   with open("../foo.pwds", "w") as pw:
