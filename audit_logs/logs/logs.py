@@ -19,10 +19,10 @@ def make_logs():
     date = f"{randint(1, 12)}/{randint(1,31)}/{randint(2025, 2040)}"
     
     # create dictionary from values above
-    logfile[f"log#{i}"] = [date, choice(http_status), choice(perms), choice(cmds), choice(acct_names)]
+    logfile[f"log#{str(i).zfill(2)}"] = [date, choice(http_status), choice(perms), choice(cmds), choice(acct_names)]
 
   # store json data into a file name 'logs.json' inside working directory
   data = json.dumps(logfile, indent=4)
   f = open('logs.json', 'w')
-  f.write(data)
+  f.write(data + "\n")
   f.close()
