@@ -15,7 +15,6 @@ def list_car():
 
   car = {
           "year":"2026",
-          "make":["BMW"],
           "make":["Subaru","Toyota", "BMW", "Audi"],
           "models":[
           ["Legacy","Forester","Impreza","Outback"],
