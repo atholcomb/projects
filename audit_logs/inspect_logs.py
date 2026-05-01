@@ -7,7 +7,6 @@ import json
 from logs import logs
 
 def main():
-
   # create logfile entries to parse
   logs.make_logs()
 
