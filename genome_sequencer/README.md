@@ -2,7 +2,7 @@
 returns {n} number of dna strands
 
 ## To run:
-`main.py`
+`./main.py`
 
 ## Output
 ```
